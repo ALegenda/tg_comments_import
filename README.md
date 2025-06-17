@@ -21,6 +21,11 @@ This repository provides a simple Telegram bot that collects comments for a give
    python bot.py
    ```
 
+You can also test the bot against a single post without starting polling:
+   ```bash
+   python bot.py --test https://t.me/CHANNEL/123
+   ```
+
 ## Usage
 
 Send the bot a forwarded post or a link to the post. The bot will respond with collected comments in a structured JSON format.
